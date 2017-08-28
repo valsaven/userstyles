@@ -1,0 +1,57 @@
+@-moz-document domain('less2css.org'),
+url-prefix('http://less2css.org/') {
+  body {
+    background-color: #191919;
+    color: #B2C1C1;
+  }
+
+  a {
+    color: #337ab7;
+  }
+
+  a:focus, a:hover {
+    color: #23527c;
+  }
+
+  .navbar .nav {
+    background-color: #191919;
+  }
+
+  .navbar .nav>li.option-info>span {
+    color: #B2C1C1;
+  }
+
+  .navbar .nav>li>a,
+  .navbar .nav>li>span {
+    color: #B2C1C1;
+    text-shadow: none;
+  }
+
+  .nav>li>a:focus, .nav>li>a:hover {
+    background-color: #474747;
+  }
+
+  .options-drawer {
+    background-color: #474747;
+    background-image: none;
+  }
+
+  .options-row {
+    text-shadow: none;
+  }
+
+  .code-wrap {
+    background-color: #191919;
+    border: none;
+  }
+
+  .page-footer {
+    background-color: #191919;
+    background-image: none;
+    text-shadow: none;
+  }
+
+  .page-footer a {
+    color: #337ab7;
+  }
+}
