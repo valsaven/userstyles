@@ -17,7 +17,8 @@
     .messenger-tools__form,
     .messenger__content-inner,
     .messenger-tools__disabled,
-    .message__bubble:after {
+    .message__bubble:after,
+    .questions-ovl-content__item .questions-different-answers > .questions-different-answers__bubble:after {
         background-color: #272C2D;
     }
 
@@ -40,7 +41,11 @@
     .promo-banner>*,
     .lookalikes-gallery__title,
     .users-card__title,
-    .connection-header__name {
+    .connection-header__name,
+    .verification-methods__title,
+    .banner-content,
+    .profile-widget__lookalikes-text,
+    .questions-ovl-content__item > p {
         color: #BABDB6;
     }
 
