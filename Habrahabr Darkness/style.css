@@ -57,6 +57,18 @@ display: inline !important;
     svg|svg.icon-svg_logo-habrahabr {
         color: #babdb6 !important;
     }
+
+    .user-info__nickname_comment {
+        color: #ccc;
+    }
+
+    .comment__head_topic-author {
+        background-color: #4e4e4e;
+    }
+
+    .comment__head_new-comment {
+        background-color: #323f4c;
+    }
 /*.add_post a:after {
 content: "Создать пост" !important;
 border: 1px solid rgb(212, 212, 212) !important;
