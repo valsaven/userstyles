@@ -69,6 +69,7 @@ display: inline !important;
     .comment__head_new-comment {
         background-color: #323f4c;
     }
+
 /*.add_post a:after {
 content: "Создать пост" !important;
 border: 1px solid rgb(212, 212, 212) !important;
@@ -144,6 +145,19 @@ color: rgb(238, 238, 236) !important;
     .t-text_md {
         background: #2E3436 !important;
         color: #babdb6 !important;
+    }
+
+    .poll-result__item .poll-result__data .poll-result__data-label {
+        color: #80868a;
+    }
+
+    .poll-result__item .poll-result__data .poll-result__data-label.poll-result__my-vote {
+        color: #5e8eac;
+    }
+
+    .user-info__about .user-info__links .user-info__fullname,
+    .user-info__about .user-info__specialization {
+        color: #babdb6;
     }
 
     .sidebar_right .block,
