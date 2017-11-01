@@ -142,7 +142,10 @@ color: rgb(238, 238, 236) !important;
     .megapost-teasers,
     .default-block__header,
     .teaser__body-title,
-    .t-text_md {
+    .t-text_md,
+    .company-info__author,
+    .post-share,
+    .page-header__info-desc {
         background: #2E3436 !important;
         color: #babdb6 !important;
     }
