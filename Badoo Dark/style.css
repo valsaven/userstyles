@@ -31,14 +31,14 @@
     .js-location-label,
     .section-editable,
     .profile-section__txt,
-    .profile-widget>h2,
+    .profile-widget > h2,
     .footer-apps__caption,
     .footer-app__title,
     .users-connect__title,
     .ellipsis,
     .profile-header__age,
     .common-info__count-cnt.js-interests-board,
-    .promo-banner>*,
+    .promo-banner > *,
     .lookalikes-gallery__title,
     .users-card__title,
     .connection-header__name,
@@ -56,7 +56,7 @@
         color: #b37cec;
     }
 
-    .checkbox>input:checked+label:before,
+    .checkbox > input:checked + label:before,
     .pagination__item--current {
         background-color: #b37cec;
     }
