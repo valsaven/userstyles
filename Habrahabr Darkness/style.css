@@ -3,12 +3,6 @@
 
 @-moz-document url-prefix("http://habrahabr.ru"), url-prefix("https://habrahabr.ru"), url-prefix("http://geektimes.ru"), url-prefix("https://geektimes.ru"), url-prefix("http://megamozg.ru/"), url-prefix("https://megamozg.ru/"), url-prefix("http://tmfeed.ru"), url-prefix("https://tmfeed.ru")
 {
-/*.logo {
-width: 71px !important;
-height: 71px !important;
-background: none !important;
-display: inline !important;
-}*/
     span.defination-list__label {
         color: #8c8c8c;
     }
@@ -70,22 +64,6 @@ display: inline !important;
         background-color: #323f4c;
     }
 
-/*.add_post a:after {
-content: "Создать пост" !important;
-border: 1px solid rgb(212, 212, 212) !important;
-display: inline-block !important;
-font-size: 12px !important;
-margin-left: 30px !important;
-padding: 5px 10px 0px;
-border-radius: 5px !important;
-white-space: nowrap !important;
-height: 24px !important;
-margin-bottom: 1px !important;
-text-decoration: none !important;
-background: #555753 !important;
-color: rgb(238, 238, 236) !important;
-}
-*/
     #layout,
     #TMpanel,
     #TMpanel .container,
@@ -530,13 +508,6 @@ color: rgb(238, 238, 236) !important;
         padding: 0px !important;
     }
 
-/*a.title[href="http://brainstorage.me/jobs"], a.title[href="http://freelansim.ru"], .block.new_vacanies .title, .block.freelansim .title {
-width: 0px !important;
-text-indent: 0px !important;
-}
-a.title[href="http://freelansim.ru"]:after, .block.freelansim .title:after {
-content: "ФРИЛАНСИМ" !important;
-}*/
     .Sidebar .block_brainstorage .title:after {
         content: "Brainstorage" !important;
     }
@@ -641,16 +612,11 @@ content: "ФРИЛАНСИМ" !important;
     .live_broadcast h2.title {
         background: none !important;
     }
-/*a.add:after, .infopanel .favorite a.remove:before {
-content: "★" !important;
-margin-top: -2px !important
-}*/
+
     .infopanel .favorite a.remove:before {
         color: #e9b96e !important;
     }
-/*.infopanel .author:before, a.user_link:before {
-content: "☻" !important;
-}*/
+
     .infopanel .comments:before {
         content: "Комментариев:" !important;
         color: #babdb6 !important;
@@ -732,47 +698,7 @@ content: "☻" !important;
     .post .hubs::before {
         position: relative !important;
     }
-/*.wysiwyg_wrapper > a[title="Жирный"]:after {
-content: "B";
-font-weight: bold !important;
-}
-.wysiwyg_wrapper > a[title="Курсив"]:after {
-content: "i";
-font-size: 15px !important;
-font-style: italic !important;
-}
-.wysiwyg_wrapper > a[title="Подчёркнутый"]:after {
-content: "U";
-text-decoration: underline !important;
-}
-.wysiwyg_wrapper > a[title="Зачёркнутый"]:after {
-content: "S";
-text-decoration: line-through !important;
-}
-.wysiwyg_wrapper > a[title="Цитата"]:after {
-content: "«»";
-}
-.wysiwyg_wrapper > a[title="Код - Используйте этот тег для строчных элементов"]:after {
-content: "code";
-font-family:monospace;
-}
-.wysiwyg_wrapper > a[title="Вставить ссылку"]:after {
-content: "Ссылка";
-}
-.wysiwyg_wrapper > a[title="Вставить изображение"]:after {
-content: "Картинка";
-}
-img[src*="/images/panel/"] {
-display: none !important;
-}
-.wysiwyg_wrapper > a[title="Жирный"]:after, .wysiwyg_wrapper > a[title="Курсив"]:after, .wysiwyg_wrapper > a[title="Подчёркнутый"]:after , .wysiwyg_wrapper > a[title="Зачёркнутый"]:after, .wysiwyg_wrapper > a[title="Цитата"]:after, .wysiwyg_wrapper > a[title="Код - Используйте этот тег для строчных элементов"]:after, .wysiwyg_wrapper > a[title="Вставить ссылку"]:after, .wysiwyg_wrapper > a[title="Вставить изображение"]:after {
-display: inline-block !important;
-color: #babdb6 !important;
-margin: 10px !important;
-margin-bottom: 2px !important;
-vertical-align: top !important;
-}
-*/
+
     .comments_list .comment_item .message,
     #people-tags li {
         opacity: 1 !important;
@@ -852,12 +778,6 @@ vertical-align: top !important;
     .companies .company {
         border-radius: 5px 5px 5px 5px !important;
         padding: 20px 15px !important;
-    }
-
-    .content_left {
-        /*margin-right: 20px !important;
-    width: 630px !important;*/
-        ;
     }
 
     body {
@@ -1162,41 +1082,6 @@ vertical-align: top !important;
   }
 }
 
-/*
-@-moz-document url-prefix("http://habrahabr.ru"), url-prefix("https://habrahabr.ru")
-{
-.logo:after {
-width: 59px !important;
-height: 71px !important;
-font-size: 60px !important;
-padding-left: 12px !important;
-content: "H" !important;
-color: #D4D5D3 !important;
-display: inline-block !important;
-}
-}
-@-moz-document url-prefix("http://geektimes.ru"), url-prefix("https://geektimes.ru") {
-.logo:after {
-width: 59px !important;
-height: 71px !important;
-font-size: 60px !important;
-padding-left: 12px !important;
-content: "G" !important;
-color: #D4D5D3 !important;
-display: inline-block !important;
-}
-}
-@-moz-document url-prefix("http://megamozg.ru/"), url-prefix("https://megamozg.ru/") {
-.logo:after {
-width: 59px !important;
-height: 71px !important;
-font-size: 60px !important;
-padding-left: 11px !important;
-content: "M" !important;
-color: #D4D5D3 !important;
-display: inline-block !important;
-}
-}*/
 @-moz-document domain("m.habrahabr.ru")
 {
   .logo:after
