@@ -1,5 +1,5 @@
 @-moz-document domain('badoo.com'),
-url-prefix('https://badoo.com/') {
+    url-prefix('https://badoo.com/') {
     html.js,
     #page,
     #app_c,
@@ -20,7 +20,7 @@ url-prefix('https://badoo.com/') {
     .messenger-tools__disabled,
     .message__bubble:after,
     .questions-ovl-content__item .questions-different-answers > .questions-different-answers__bubble:after {
-        background-color: #272C2D;
+        background-color: #272c2d;
     }
 
     .section-header__title,
@@ -47,7 +47,7 @@ url-prefix('https://badoo.com/') {
     .banner-content,
     .profile-widget__lookalikes-text,
     .questions-ovl-content__item > p {
-        color: #BABDB6;
+        color: #babdb6;
     }
 
     .sidebar-menu__item.active,
@@ -72,7 +72,7 @@ url-prefix('https://badoo.com/') {
     }
 
     .intr--match {
-        background-color: #4B8B60;
+        background-color: #4b8b60;
     }
 
     .section--profile:before {
