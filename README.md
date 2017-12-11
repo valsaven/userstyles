@@ -8,3 +8,12 @@
 * [Habrahabr Darkness](https://userstyles.org/styles/143612/habrahabr-darkness)
 * [VK Remove comments](https://userstyles.org/styles/136769/vk-remove-comments)
 
+### Build Setup
+
+``` bash
+# install dependencies
+npm i
+
+# build
+npm run build
+```
