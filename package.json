@@ -1,0 +1,25 @@
+{
+  "name": "userstyles",
+  "version": "1.0.0",
+  "description": "My styles",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valsaven/userstyles.git"
+  },
+  "author": "Val Saven <val.saven@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valsaven/userstyles/issues"
+  },
+  "homepage": "https://github.com/valsaven/userstyles#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
