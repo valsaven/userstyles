@@ -9,7 +9,8 @@ url-prefix('http://less2css.org/') {
     color: #337ab7;
   }
 
-  a:focus, a:hover {
+  a:focus,
+  a:hover {
     color: #23527c;
   }
 
@@ -17,17 +18,18 @@ url-prefix('http://less2css.org/') {
     background-color: #191919;
   }
 
-  .navbar .nav>li.option-info>span {
+  .navbar .nav > li.option-info > span {
     color: #B2C1C1;
   }
 
-  .navbar .nav>li>a,
-  .navbar .nav>li>span {
+  .navbar .nav > li > a,
+  .navbar .nav > li > span {
     color: #B2C1C1;
     text-shadow: none;
   }
 
-  .nav>li>a:focus, .nav>li>a:hover {
+  .nav > li > a:focus,
+  .nav > li > a:hover {
     background-color: #474747;
   }
 
