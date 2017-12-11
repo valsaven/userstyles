@@ -1,4 +1,5 @@
-@-moz-document domain(badoo.com) {
+@-moz-document domain('badoo.com'),
+url-prefix('https://badoo.com/') {
     html.js,
     #page,
     #app_c,

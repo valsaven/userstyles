@@ -1,0 +1,26 @@
+@-moz-document domain('css2less.co'),
+url-prefix('http://css2less.co/') {
+    html {
+        background-color: #191919;
+    }
+
+    body {
+        background-color: #191919;
+    }
+
+    textarea {
+        background-color: #1D1F21;
+    }
+
+    .select-field select {
+        color: black;
+    }
+
+    .submit {
+        color: black;
+    }
+
+    .reset {
+        color: black;
+    }
+}
