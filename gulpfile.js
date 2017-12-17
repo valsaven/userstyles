@@ -1,10 +1,9 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var minifyCSS = require('gulp-csso');
+var cleanCSS = require('gulp-clean-css');
 var del = require('del');
 
 gulp.task('default', function () {
-
     del(['dist/**', '!dist']).then(paths => {
         console.log('Deleted files and folders:\n', paths.join('\n'));
     });
@@ -14,6 +13,6 @@ gulp.task('default', function () {
             './**/*.scss',
         ])
         .pipe(sass())
-        .pipe(minifyCSS())
+        .pipe(cleanCSS())
         .pipe(gulp.dest('dist'))
 });
