@@ -928,6 +928,11 @@ $main-bg-color: #272c2d;
     .post-info__title {
         color: #808080;
     }
+
+    .dfp-slot {
+        background: #2e3436;
+        /*[[showAds]]*/
+    }
 }
 
 @-moz-document url-prefix("http://habrahabr.ru/company/"),
