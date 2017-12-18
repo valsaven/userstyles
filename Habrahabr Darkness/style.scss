@@ -1,5 +1,9 @@
 // Colors
-$main-bg-color: #272c2d;
+$bg-color-0: #272c2d;
+$bg-color-1: #2e3436;
+$text-color-0: #b3b3b3;
+$text-color-1: #babdb6;
+$text-color-2: #808080;
 
 @namespace url(http://www.w3.org/1999/xhtml);
 @namespace svg url(http://www.w3.org/2000/svg);
@@ -28,8 +32,8 @@ $main-bg-color: #272c2d;
 
     .layout__row,
     .layout__row_navbar {
-        background-color: #2e3436 !important;
-        border: 0 solid #2e3436 !important;
+        background-color: $bg-color-1 !important;
+        border: 0 solid $bg-color-1 !important;
     }
 
     .main_menu a,
@@ -58,7 +62,7 @@ $main-bg-color: #272c2d;
 
     svg|svg.icon-svg_logo-geektimes,
     svg|svg.icon-svg_logo-habrahabr {
-        color: #babdb6 !important;
+        color: $text-color-1 !important;
     }
 
     .user-info__nickname_comment {
@@ -133,8 +137,8 @@ $main-bg-color: #272c2d;
     .company-info__author,
     .post-share,
     .page-header__info-desc {
-        background: #2e3436 !important;
-        color: #babdb6 !important;
+        background: $bg-color-1 !important;
+        color: $text-color-1 !important;
     }
 
     .poll-result__item .poll-result__data .poll-result__data-label {
@@ -147,7 +151,7 @@ $main-bg-color: #272c2d;
 
     .user-info__about .user-info__links .user-info__fullname,
     .user-info__about .user-info__specialization {
-        color: #babdb6;
+        color: $text-color-1;
     }
 
     .sidebar_right .block,
@@ -213,23 +217,23 @@ $main-bg-color: #272c2d;
     .html_banner,
     body.nl .layout__elevator,
     .t265__wrapper {
-        background: $main-bg-color !important;
-        color: #babdb6 !important;
+        background: $bg-color-0 !important;
+        color: $text-color-1 !important;
         border: none !important;
     }
 
     .promo-block__footer {
-        background: $main-bg-color !important;
-        color: #babdb6 !important;
+        background: $bg-color-0 !important;
+        color: $text-color-1 !important;
     }
 
     .content-list_promo .content-list__item {
-        border-color: #babdb6 !important;
+        border-color: $text-color-1 !important;
     }
 
     .promo-block,
     .promo-block__service {
-        border: solid 1px #babdb6 !important;
+        border: solid 1px $text-color-1 !important;
     }
 
     .tab-item,
@@ -245,11 +249,11 @@ $main-bg-color: #272c2d;
 
     #navbar .nav_panel,
     .btn_navbar_user-dropdown > img {
-        background-color: $main-bg-color !important;
+        background-color: $bg-color-0 !important;
     }
 
     .dropdown_user {
-        border-color: #babdb6 !important;
+        border-color: $text-color-1 !important;
         border: 1px solid !important;
         border-radius: 3px !important;
     }
@@ -314,13 +318,13 @@ $main-bg-color: #272c2d;
 
     .html_format pre code,
     .n-dropdown-menu {
-        border: 1px #babdb6 dashed !important;
+        border: 1px $text-color-1 dashed !important;
     }
 
     input[type="text"],
     .chzn-choices,
     body.nl .layout__elevator:hover {
-        background: #babdb6 !important;
+        background: $text-color-1 !important;
         color: #000 !important;
     }
 
@@ -344,7 +348,7 @@ $main-bg-color: #272c2d;
     .open .icon_cog::before,
     .tracker_page table.tracker_folowers tr.new *,
     .promo-block__service {
-        background-color: #babdb6 !important;
+        background-color: $text-color-1 !important;
         color: #19242e !important;
     }
 
@@ -413,7 +417,7 @@ $main-bg-color: #272c2d;
     .t-text,
     .t-name,
     .t-descr_xs div {
-        color: #babdb6 !important;
+        color: $text-color-1 !important;
     }
 
     .content_left .submenu .item.active a,
@@ -444,7 +448,7 @@ $main-bg-color: #272c2d;
     a.username,
     time,
     .corporation_head .menu a {
-        color: #babdb6 !important;
+        color: $text-color-1 !important;
     }
 
     .hljs-attribute,
@@ -478,8 +482,8 @@ $main-bg-color: #272c2d;
     }
 
     .post .infopanel {
-        border: 1px solid #babdb6 !important;
-        background: #272c2d !important;
+        border: 1px solid $text-color-1 !important;
+        background: $bg-color-0 !important;
         color: rgb(238, 238, 236) !important;
     }
 
@@ -487,8 +491,8 @@ $main-bg-color: #272c2d;
     .comment_item .info.is_new,
     .comment_item .info.is_topic_starter,
     .comment_item .info.is_author {
-        background: #272c2d !important;
-        color: #babdb6 !important;
+        background: $bg-color-0 !important;
+        color: $text-color-1 !important;
     }
 
     .voting a.plus,
@@ -523,7 +527,7 @@ $main-bg-color: #272c2d;
 
     .category-list .category .title a {
         text-decoration: none !important;
-        border-bottom: 1px dashed #babdb6 !important;
+        border-bottom: 1px dashed $text-color-1 !important;
     }
 
     .category-list .category .title a:hover {
@@ -609,7 +613,7 @@ $main-bg-color: #272c2d;
     a.grey,
     .grey a,
     a.post_name {
-        color: #babdb6 !important;
+        color: $text-color-1 !important;
     }
 
     a:visited {
@@ -628,7 +632,7 @@ $main-bg-color: #272c2d;
 
     .infopanel .comments:before {
         content: "Комментариев:" !important;
-        color: #babdb6 !important;
+        color: $text-color-1 !important;
     }
 
     .infopanel .comments a {
@@ -752,11 +756,11 @@ $main-bg-color: #272c2d;
 
     .folding-dot {
         background-image: none !important;
-        background: #babdb6 !important;
+        background: $text-color-1 !important;
     }
 
     .poll_title {
-        color: #babdb6 !important;
+        color: $text-color-1 !important;
     }
 
     #header_mouse_activity #header,
@@ -872,15 +876,15 @@ $main-bg-color: #272c2d;
 
     .mail_subscription_settings,
     .mail_subscription_settings .fields label {
-        background: $main-bg-color !important;
+        background: $bg-color-0 !important;
         border: none !important;
-        color: #babdb6 !important;
+        color: $text-color-1 !important;
     }
 
     .chosen-container-single .chosen-single,
     .chosen-container-multi .chosen-choices,
     .post-type-selector:hover {
-        background-color: #babdb6 !important;
+        background-color: $text-color-1 !important;
     }
 
     .Header ul.submenu {
@@ -922,15 +926,15 @@ $main-bg-color: #272c2d;
     .post__text-html,
     .comment__message,
     .comment-form__preview {
-        color: #b3b3b3;
+        color: $text-color-0;
     }
 
     .post-info__title {
-        color: #808080;
+        color: $text-color-2;
     }
 
     .dfp-slot {
-        background: #2e3436;
+        background: $bg-color-1;
         /*[[showAds]]*/
     }
 }
@@ -942,7 +946,7 @@ $main-bg-color: #272c2d;
     url-prefix("http://megamozg.ru/company/"),
     url-prefix("https://megamozg.ru/company/") {
     #header_mouse_activity #header {
-        background: $main-bg-color !important;
+        background: $bg-color-0 !important;
         box-shadow: none !important;
     }
 
@@ -983,8 +987,8 @@ $main-bg-color: #272c2d;
 
     .banner_footer,
     .banner_header {
-        background: $main-bg-color !important;
-        color: #babdb6 !important;
+        background: $bg-color-0 !important;
+        color: $text-color-1 !important;
     }
 
     .logo:after {
@@ -1000,12 +1004,12 @@ $main-bg-color: #272c2d;
     body,
     .comments_list .comment_item,
     .comments_list .comment_item.bad .text {
-        background: #2e3436 !important;
-        color: #babdb6 !important;
+        background: $bg-color-1 !important;
+        color: $text-color-1 !important;
     }
 
     .comments_list .comment_item + .comment_item {
-        border-top: 1px solid #babdb6 !important;
+        border-top: 1px solid $text-color-1 !important;
     }
 
     .comments .text,
@@ -1022,8 +1026,8 @@ $main-bg-color: #272c2d;
     .list_item:active,
     .post_show .bottom_buttons_panel,
     .text_html pre code {
-        background: $main-bg-color !important;
-        color: #babdb6 !important;
+        background: $bg-color-0 !important;
+        color: $text-color-1 !important;
     }
 
     .title,
@@ -1035,7 +1039,7 @@ $main-bg-color: #272c2d;
     h5,
     h6,
     .username {
-        color: #babdb6 !important;
+        color: $text-color-1 !important;
     }
 
     #sidebar .username {
@@ -1067,7 +1071,7 @@ $main-bg-color: #272c2d;
     .comments_count.has_new {
         background-color: #b8b8b6 !important;
         color: #555753 !important;
-        border-color: $main-bg-color !important;
+        border-color: $bg-color-0 !important;
     }
 
     .comments_count {
@@ -1098,13 +1102,13 @@ $main-bg-color: #272c2d;
     .posts .post,
     .list_items .list_item,
     .comments .comment + .comment {
-        border-color: #babdb6 !important;
+        border-color: $text-color-1 !important;
     }
 
     .layout__row,
     .layout__row_navbar {
-        background-color: #2e3436 !important;
-        border: 0 solid #2e3436 !important;
+        background-color: $bg-color-1 !important;
+        border: 0 solid $bg-color-1 !important;
     }
 }
 
