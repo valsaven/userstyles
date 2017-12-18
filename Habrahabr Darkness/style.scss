@@ -937,6 +937,14 @@ $text-color-2: #808080;
         background: $bg-color-1;
         /*[[showAds]]*/
     }
+
+    .layout > .box > h1 {
+        color: $text-color-2;
+    }
+
+    .layout > .box > p {
+        color: $text-color-0;
+    }
 }
 
 @-moz-document url-prefix("http://habrahabr.ru/company/"),
