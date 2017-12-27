@@ -17,9 +17,11 @@ $text-color-2: #808080;
     url-prefix("http://tmfeed.ru"),
     url-prefix("https://tmfeed.ru") {
     span.defination-list__label {
-        color: #8c8c8c;
+        color: $text-color-2;
     }
 
+    .footer-block__title,
+    .company-app__title,
     div.profile-section__about-text,
     span.defination-list__value,
     .user-message__body {
@@ -138,7 +140,8 @@ $text-color-2: #808080;
     .post-share,
     .page-header__info-desc,
     .tm-editor__textarea_comment,
-    .h-message__controls {
+    .h-message__controls,
+    #allrecords {
         background: $bg-color-1 !important;
         color: $text-color-1 !important;
     }
@@ -942,13 +945,27 @@ $text-color-2: #808080;
         /*[[showAds]]*/
     }
 
-    .layout > .box > h1 {
+    .layout > .box > h1,
+    .footer__copyright {
         color: $text-color-2;
     }
 
     .layout > .box > p,
-    .comment-form > .comment-form__title > .comment-form__title-text {
+    .comment-form > .comment-form__title > .comment-form__title-text,
+    .company-app__description {
         color: $text-color-0;
+    }
+
+    div[data-customstyle="yes"] {
+        color: $text-color-0 !important;
+    }
+
+    .default-block__header-title {
+        color: #7d8f9e !important;
+    }
+
+    .comment__folding-dotholder::before {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAABGdBTUEAALGPC/xhBQAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEVJREFUGNNj1DMxYyAXsDAwMPQtXHP16WttadGi+BCSNDMxMDBcffJakJvj6pPXpNrMxMDAoC0r+v7LD21ZUVI1M1LiZwCzJhA8e7Vj8QAAAABJRU5ErkJggg==') !important;
     }
 }
 
