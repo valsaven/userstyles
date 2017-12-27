@@ -136,7 +136,8 @@ $text-color-2: #808080;
     .t-text_md,
     .company-info__author,
     .post-share,
-    .page-header__info-desc {
+    .page-header__info-desc,
+    .tm-editor__textarea_comment {
         background: $bg-color-1 !important;
         color: $text-color-1 !important;
     }
@@ -216,7 +217,8 @@ $text-color-2: #808080;
     .dropdown-container,
     .html_banner,
     body.nl .layout__elevator,
-    .t265__wrapper {
+    .t265__wrapper,
+    .tm-editor_comments {
         background: $bg-color-0 !important;
         color: $text-color-1 !important;
         border: none !important;
@@ -942,7 +944,8 @@ $text-color-2: #808080;
         color: $text-color-2;
     }
 
-    .layout > .box > p {
+    .layout > .box > p,
+    .comment-form > .comment-form__title > .comment-form__title-text {
         color: $text-color-0;
     }
 }
