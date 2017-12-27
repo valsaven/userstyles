@@ -137,7 +137,8 @@ $text-color-2: #808080;
     .company-info__author,
     .post-share,
     .page-header__info-desc,
-    .tm-editor__textarea_comment {
+    .tm-editor__textarea_comment,
+    .h-message__controls {
         background: $bg-color-1 !important;
         color: $text-color-1 !important;
     }
@@ -922,6 +923,7 @@ $text-color-2: #808080;
         font-weight: normal !important;
     }
 
+    .h-message__content,
     .checkbox__label_poll,
     .radio__label_poll,
     .default-block__polling-title,
