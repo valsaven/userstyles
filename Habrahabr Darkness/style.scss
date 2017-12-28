@@ -967,6 +967,18 @@ $text-color-2: #808080;
     .comment__folding-dotholder::before {
         background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAABGdBTUEAALGPC/xhBQAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAEVJREFUGNNj1DMxYyAXsDAwMPQtXHP16WttadGi+BCSNDMxMDBcffJakJvj6pPXpNrMxMDAoC0r+v7LD21ZUVI1M1LiZwCzJhA8e7Vj8QAAAABJRU5ErkJggg==') !important;
     }
+
+    pre code {
+        background: $bg-color-0 !important;
+        color: $text-color-0 !important;
+        border: none !important;
+    }
+
+    blockquote {
+        background: $bg-color-0 !important;
+        border-left: 2px solid $text-color-0;
+        font-style: italic;
+    }
 }
 
 @-moz-document url-prefix("http://habrahabr.ru/company/"),
