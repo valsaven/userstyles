@@ -275,8 +275,7 @@ $text-color-2: #808080;
 
     #navbar .nav_panel .tab.open,
     a.tab-item:hover,
-    .menu__item-tab:hover,
-    .tracker_page table.tracker_comments tr.new {
+    .menu__item-tab:hover {
         background-color: #d4d5d3 !important;
     }
 
@@ -978,6 +977,15 @@ $text-color-2: #808080;
         background: $bg-color-0 !important;
         border-left: 2px solid $text-color-0;
         font-style: italic;
+    }
+
+    // Tracker page
+    .tracker_page table.tracker_comments {
+        background-color: $bg-color-0;
+    }
+
+    .tracker_page table.tracker_comments tr.new {
+        background-color: $bg-color-1;
     }
 }
 
