@@ -14,3 +14,7 @@ gulp.task('default', function() {
     .pipe(cleanCSS())
     .pipe(gulp.dest('dist'));
 });
+
+gulp.task('watch', function() {
+  gulp.watch('./**/*.scss', ['default']);
+});
