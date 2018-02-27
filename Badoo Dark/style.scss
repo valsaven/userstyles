@@ -1,8 +1,17 @@
+// Colors
+$main-color-0: #b37cec;
+$main-color-0-mask: rgba(179, 124, 236, 0.4);
+$bg-color-0: #2e3436;
+$bg-color-1: #353d40;
+$text-color-0: #babdb6;
+$text-color-1: #808080;
+
 @-moz-document domain('badoo.com'), url-prefix('https://badoo.com/') {
   html.js,
   #page,
   #app_c,
   #app_footer,
+  .page__content,
   .js-scroller,
   .section-header,
   .profile-info-v2__left,
@@ -21,7 +30,12 @@
   .questions-ovl-content__item
     .questions-different-answers
     > .questions-different-answers__bubble:after {
-    background-color: #272c2d;
+    background-color: $bg-color-0;
+  }
+
+  body,
+  .profile:nth-child(2) > .profile__header {
+    background: $bg-color-0;
   }
 
   .section-header__title,
@@ -47,25 +61,54 @@
   .verification-methods__title,
   .banner-content,
   .profile-widget__lookalikes-text,
-  .questions-ovl-content__item > p {
-    color: #babdb6;
+  .questions-ovl-content__item > p,
+  .sidebar-info__metric-content .sidebar-info__metric-content--inactive .js-sidebar-button,
+  .sidebar-info__metric-content .js-credits-button,
+  .common-info .common-info--hide > span:first-child,
+  .react-banner-blocker__description .react-banner-blocker__title,
+  .react-banner-blocker__description .react-banner-blocker__caption {
+    color: $text-color-0;
+  }
+
+  .sidebar-info__metric-content,
+  .footer-menu__item .link {
+    color: $text-color-1;
   }
 
   .sidebar-menu__item.active,
   .sidebar-menu__item:hover,
   .tabs__item.active,
-  .tabs__item:hover {
-    color: #b37cec;
+  .tabs__item:hover,
+  .sidebar-info__metric-content:hover,
+  .sidebar-info__metric-text .sidebar-info__metric-cta,
+  .link:hover,
+  .p-link:hover,
+  .send-gift:hover,
+  .btn--white.hover,
+  .btn--white.hovered,
+  .btn--white:focus,
+  .btn--white:hover {
+    color: $main-color-0;
+  }
+
+  .brick--hover:hover::after,
+  .brick-wrap:hover .brick--hover::after {
+    background: $main-color-0-mask;
   }
 
   .checkbox > input:checked + label:before,
   .pagination__item--current {
-    background-color: #b37cec;
+    background-color: $main-color-0;
   }
 
   .tabs__item.active:after,
-  .pagination__item a.btn--white:hover {
-    border-color: #b37cec;
+  .pagination__item a.btn--white:hover,
+  .brick::before,
+  .btn--white.hover,
+  .btn--white.hovered,
+  .btn--white:focus,
+  .btn--white:hover {
+    border-color: $main-color-0;
   }
 
   .intr {
@@ -92,5 +135,81 @@
 
   .connection-header__user--link {
     color: #949494;
+  }
+
+  .banner__desc .js-banner-desc {
+    color: #fff;
+  }
+
+  // People nearby
+  .radio-field__text,
+  .users-filter__search {
+    color: $text-color-0;
+  }
+
+  .radio-field__input:checked + .radio-field__label .radio-field__text,
+  .radio-field__input:checked:focus + .radio-field__label .radio-field__text {
+    color: $text-color-1;
+  }
+
+  // Encounters
+
+  // > Map Block
+  .location-map__cached {
+    background: #252525;
+  }
+
+  .location-map__layer {
+    background: $bg-color-1;
+  }
+
+  .scale--sm .scale-value,
+  .user-score__desc {
+    color: $text-color-0;
+  }
+
+  // > Ovl Frame
+  .ovl__frame,
+  .location-options__or_ {
+    background: $bg-color-0;
+  }
+
+  .ovl__content {
+    color: $text-color-0;
+  }
+
+  .location-options .location-option .btn.btn--sm {
+    background: $main-color-0;
+  }
+
+  .location-distance__pin--primary {
+    fill: $main-color-0;
+  }
+
+  // Messages
+  .scroll__inner {
+    background-color: $bg-color-0;
+  }
+
+  .messenger__banner {
+    background: $bg-color-1;
+  }
+
+  .messenger-banner__title {
+    color: $text-color-0;
+  }
+
+  .messenger-banner__desc {
+    color: $text-color-1;
+  }
+
+  .messenger-tools__icon:hover,
+  .messenger-tools__btn {
+    color: $main-color-0;
+  }
+
+  // Liked you
+  .banner__desc {
+    color: $text-color-0;
   }
 }
