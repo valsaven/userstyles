@@ -1,9 +1,9 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var cleanCSS = require('gulp-clean-css');
-var del = require('del');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const cleanCSS = require('gulp-clean-css');
+const del = require('del');
 
-gulp.task('default', function() {
+gulp.task('default', () => {
   del(['dist/**', '!dist']).then(paths => {
     console.log('Deleted files and folders:\n', paths.join('\n'));
   });
@@ -15,6 +15,6 @@ gulp.task('default', function() {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', () => {
   gulp.watch('./**/*.scss', ['default']);
 });
