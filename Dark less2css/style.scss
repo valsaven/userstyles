@@ -4,62 +4,61 @@ $bg-second-color: #474747;
 $main-color: #b2c1c1;
 $href-color: #337ab7;
 
-@-moz-document domain('less2css.org'),
-    url-prefix('http://less2css.org/') {
-    body {
-        background-color: $bg-main-color;
-        color: $main-color;
+@-moz-document domain('less2css.org'), url-prefix('http://less2css.org/') {
+  body {
+    background-color: $bg-main-color;
+    color: $main-color;
 
-        a {
-            color: $href-color;
+    a {
+      color: $href-color;
 
-            &:focus,
-            &:hover {
-                color: #23527c;
-            }
-        }
-
-        .navbar .nav {
-            background-color: $bg-main-color;
-        }
-
-        .navbar .nav > li.option-info > span {
-            color: $main-color;
-        }
-
-        .navbar .nav > li > a,
-        .navbar .nav > li > span {
-            color: $main-color;
-            text-shadow: none;
-        }
-
-        .nav > li > a:focus,
-        .nav > li > a:hover {
-            background-color: $bg-second-color;
-        }
-
-        .options-drawer {
-            background-color: $bg-second-color;
-            background-image: none;
-        }
-
-        .options-row {
-            text-shadow: none;
-        }
-
-        .code-wrap {
-            background-color: $bg-main-color;
-            border: none;
-        }
-
-        .page-footer {
-            background-color: $bg-main-color;
-            background-image: none;
-            text-shadow: none;
-
-            a {
-                color: $href-color;
-            }
-        }
+      &:focus,
+      &:hover {
+        color: #23527c;
+      }
     }
+
+    .navbar .nav {
+      background-color: $bg-main-color;
+    }
+
+    .navbar .nav > li.option-info > span {
+      color: $main-color;
+    }
+
+    .navbar .nav > li > a,
+    .navbar .nav > li > span {
+      color: $main-color;
+      text-shadow: none;
+    }
+
+    .nav > li > a:focus,
+    .nav > li > a:hover {
+      background-color: $bg-second-color;
+    }
+
+    .options-drawer {
+      background-color: $bg-second-color;
+      background-image: none;
+    }
+
+    .options-row {
+      text-shadow: none;
+    }
+
+    .code-wrap {
+      background-color: $bg-main-color;
+      border: none;
+    }
+
+    .page-footer {
+      background-color: $bg-main-color;
+      background-image: none;
+      text-shadow: none;
+
+      a {
+        color: $href-color;
+      }
+    }
+  }
 }

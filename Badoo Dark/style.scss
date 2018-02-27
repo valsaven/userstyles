@@ -1,95 +1,96 @@
-@-moz-document domain('badoo.com'),
-    url-prefix('https://badoo.com/') {
-    html.js,
-    #page,
-    #app_c,
-    #app_footer,
-    .js-scroller,
-    .section-header,
-    .profile-info-v2__left,
-    .profile-info-v2__right,
-    .common-info__count-cnt.js-interests-board,
-    .users-filter,
-    .big-photo__footer .banner,
-    .photo-gallery,
-    .connection-header,
-    .messenger__header,
-    .messenger__banner-wrap,
-    .messenger-tools__form,
-    .messenger__content-inner,
-    .messenger-tools__disabled,
-    .message__bubble:after,
-    .questions-ovl-content__item .questions-different-answers > .questions-different-answers__bubble:after {
-        background-color: #272c2d;
-    }
+@-moz-document domain('badoo.com'), url-prefix('https://badoo.com/') {
+  html.js,
+  #page,
+  #app_c,
+  #app_footer,
+  .js-scroller,
+  .section-header,
+  .profile-info-v2__left,
+  .profile-info-v2__right,
+  .common-info__count-cnt.js-interests-board,
+  .users-filter,
+  .big-photo__footer .banner,
+  .photo-gallery,
+  .connection-header,
+  .messenger__header,
+  .messenger__banner-wrap,
+  .messenger-tools__form,
+  .messenger__content-inner,
+  .messenger-tools__disabled,
+  .message__bubble:after,
+  .questions-ovl-content__item
+    .questions-different-answers
+    > .questions-different-answers__bubble:after {
+    background-color: #272c2d;
+  }
 
-    .section-header__title,
-    .sidebar-menu__item,
-    .sidebar-info__name,
-    .user-card__info-name_,
-    .user-card__info-age,
-    .section__title,
-    .js-location-label,
-    .section-editable,
-    .profile-section__txt,
-    .profile-widget > h2,
-    .footer-apps__caption,
-    .footer-app__title,
-    .users-connect__title,
-    .ellipsis,
-    .profile-header__age,
-    .common-info__count-cnt.js-interests-board,
-    .promo-banner > *,
-    .lookalikes-gallery__title,
-    .users-card__title,
-    .connection-header__name,
-    .verification-methods__title,
-    .banner-content,
-    .profile-widget__lookalikes-text,
-    .questions-ovl-content__item > p {
-        color: #babdb6;
-    }
+  .section-header__title,
+  .sidebar-menu__item,
+  .sidebar-info__name,
+  .user-card__info-name_,
+  .user-card__info-age,
+  .section__title,
+  .js-location-label,
+  .section-editable,
+  .profile-section__txt,
+  .profile-widget > h2,
+  .footer-apps__caption,
+  .footer-app__title,
+  .users-connect__title,
+  .ellipsis,
+  .profile-header__age,
+  .common-info__count-cnt.js-interests-board,
+  .promo-banner > *,
+  .lookalikes-gallery__title,
+  .users-card__title,
+  .connection-header__name,
+  .verification-methods__title,
+  .banner-content,
+  .profile-widget__lookalikes-text,
+  .questions-ovl-content__item > p {
+    color: #babdb6;
+  }
 
-    .sidebar-menu__item.active,
-    .sidebar-menu__item:hover,
-    .tabs__item.active,
-    .tabs__item:hover {
-        color: #b37cec;
-    }
+  .sidebar-menu__item.active,
+  .sidebar-menu__item:hover,
+  .tabs__item.active,
+  .tabs__item:hover {
+    color: #b37cec;
+  }
 
-    .checkbox > input:checked + label:before,
-    .pagination__item--current {
-        background-color: #b37cec;
-    }
+  .checkbox > input:checked + label:before,
+  .pagination__item--current {
+    background-color: #b37cec;
+  }
 
-    .tabs__item.active:after,
-    .pagination__item a.btn--white:hover {
-        border-color: #b37cec;
-    }
+  .tabs__item.active:after,
+  .pagination__item a.btn--white:hover {
+    border-color: #b37cec;
+  }
 
-    .intr {
-        background-color: #1b1b1b;
-    }
+  .intr {
+    background-color: #1b1b1b;
+  }
 
-    .intr--match {
-        background-color: #4b8b60;
-    }
+  .intr--match {
+    background-color: #4b8b60;
+  }
 
-    .section--profile:before {
-        border-bottom: 1px solid #656565;
-    }
+  .section--profile:before {
+    border-bottom: 1px solid #656565;
+  }
 
-    .pagination__item a.btn--white {
-        background-color: #3c3c3c;
-        color: #fff;
-    }
+  .pagination__item a.btn--white {
+    background-color: #3c3c3c;
+    color: #fff;
+  }
 
-    .contacts__item.current,
-    .contacts__item:hover {
-        background-color: #404040;
-    }
+  .contacts__item.current,
+  .contacts__item:hover {
+    background-color: #404040;
+  }
 
-    .connection-header__user--link {
-        color: #949494;
-    }
+  .connection-header__user--link {
+    color: #949494;
+  }
 }
