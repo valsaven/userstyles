@@ -186,6 +186,10 @@ $text-color-1: #808080;
     fill: $main-color-0;
   }
 
+  .blocker--light {
+    background: rgba(0, 0, 0, 0);
+  }
+
   // Messages
   .scroll__inner {
     background-color: $bg-color-0;
