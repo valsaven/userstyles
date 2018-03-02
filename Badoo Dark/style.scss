@@ -34,7 +34,8 @@ $text-color-1: #808080;
   }
 
   body,
-  .profile:nth-child(2) > .profile__header {
+  .profile:nth-child(2) > .profile__header,
+  .sidebar {
     background: $bg-color-0;
   }
 
