@@ -159,6 +159,18 @@ $text-color-1: #808080;
     color: $text-color-0;
   }
 
+  // > Fast Message
+  .fast-message,
+  .fast-message::before,
+  .fast-message__inner,
+  .fast-message__field-wrapper .fast-message__field .text-field .text-field__input {
+    background: $bg-color-1;
+  }
+
+  .fast-message__send > .btn {
+    color: $main-color-0;
+  }
+
   // Encounters
 
   // > Map Block
