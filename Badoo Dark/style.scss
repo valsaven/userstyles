@@ -171,6 +171,19 @@ $text-color-1: #808080;
     color: $main-color-0;
   }
 
+  // > Dropdown
+  .dropdown-container .dropdown {
+    background: $bg-color-1;
+  }
+
+  .dropdown__options .options .option:hover {
+    background: $bg-color-0;
+  }
+
+  .dropdown__options .options .option .option__in .option__txt {
+    color: $text-color-0;
+  }
+
   // Encounters
 
   // > Map Block
