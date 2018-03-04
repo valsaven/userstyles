@@ -148,6 +148,10 @@ $text-color-1: #808080;
     color: $text-color-0;
   }
 
+  .promo-banner .btn--sm.btn--encounters .btn__text {
+    color: $bg-color-0;
+  }
+
   .radio-field__input:checked + .radio-field__label .radio-field__text,
   .radio-field__input:checked:focus + .radio-field__label .radio-field__text {
     color: $text-color-1;
