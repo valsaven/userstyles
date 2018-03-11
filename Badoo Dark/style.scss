@@ -7,6 +7,15 @@ $text-color-0: #babdb6;
 $text-color-1: #808080;
 
 @-moz-document domain('badoo.com'), url-prefix('https://badoo.com/') {
+  #page-surprise-top,
+  .js-page-fatal-ovl,
+  .js-page-fatal-ovl-fade,
+  .ovl-fade,
+  #correspondence .messenger__content-surprise,
+  .js-messenger-wrap .messenger__side .messenger__contacts-surprise {
+    display: none;
+  }
+
   html.js,
   #page,
   #app_c,
