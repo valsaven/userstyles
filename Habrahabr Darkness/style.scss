@@ -8,12 +8,10 @@ $text-color-2: #808080;
 @namespace url(http://www.w3.org/1999/xhtml);
 @namespace svg url(http://www.w3.org/2000/svg);
 
-@-moz-document url-prefix('http://habrahabr.ru'),
-  url-prefix('https://habrahabr.ru'),
-  url-prefix('http://geektimes.ru'),
-  url-prefix('https://geektimes.ru'),
-  url-prefix('http://megamozg.ru/'),
-  url-prefix('https://megamozg.ru/'),
+@-moz-document url-prefix('http://habr.com'),
+  url-prefix('https://habr.com'),
+  url-prefix('http://geektimes.com'),
+  url-prefix('https://geektimes.com'),
   url-prefix('http://tmfeed.ru'),
   url-prefix('https://tmfeed.ru') {
   span.defination-list__label {
@@ -998,12 +996,10 @@ $text-color-2: #808080;
   }
 }
 
-@-moz-document url-prefix('http://habrahabr.ru/company/'),
-  url-prefix('https://habrahabr.ru/company/'),
-  url-prefix('http://geektimes.ru/company/'),
-  url-prefix('https://geektimes.ru/company/'),
-  url-prefix('http://megamozg.ru/company/'),
-  url-prefix('https://megamozg.ru/company/') {
+@-moz-document url-prefix('http://habr.com/company/'),
+  url-prefix('https://habr.com/company/'),
+  url-prefix('http://geektimes.com/company/'),
+  url-prefix('https://geektimes.com/company/') {
   #header_mouse_activity #header {
     background: $bg-color-0 !important;
     box-shadow: none !important;
@@ -1030,7 +1026,7 @@ $text-color-2: #808080;
   }
 }
 
-@-moz-document domain('m.habrahabr.ru'), domain('m.geektimes.ru'), domain('m.megamozg.ru') {
+@-moz-document domain('m.habr.com'), domain('m.geektimes.com') {
   .logo {
     width: 54px !important;
     height: 54px !important;
@@ -1169,21 +1165,15 @@ $text-color-2: #808080;
   }
 }
 
-@-moz-document domain('m.habrahabr.ru') {
+@-moz-document domain('m.habr.com') {
   .logo:after {
     content: 'H' !important;
   }
 }
 
-@-moz-document domain('m.geektimes.ru') {
+@-moz-document domain('m.geektimes.com') {
   .logo:after {
     content: 'G' !important;
-  }
-}
-
-@-moz-document domain('m.megamozg.ru') {
-  .logo:after {
-    content: 'M' !important;
   }
 }
 
