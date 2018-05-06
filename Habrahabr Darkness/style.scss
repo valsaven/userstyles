@@ -311,6 +311,11 @@ $text-color-2: #808080;
     color: #b8b8b6 !important;
   }
 
+  .nav-links__item-link:hover {
+    color: #5096b1 !important;
+    text-decoration: none;
+  }
+
   #navbar .nav_panel .tab:hover .g-icon,
   #navbar .nav_panel .tab.open .g-icon,
   a.tab-item:hover,
