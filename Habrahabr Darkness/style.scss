@@ -1002,6 +1002,10 @@ $text-color-2: #808080;
   .list-snippet .list-snippet__lifetime {
     color: $text-color-2;
   }
+
+  .toggle-menu {
+    background-color: #2e3436 !important;
+  }
 }
 
 @-moz-document url-prefix('http://habr.com/company/'),
