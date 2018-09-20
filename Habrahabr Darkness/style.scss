@@ -1006,6 +1006,14 @@ $text-color-2: #808080;
   .toggle-menu {
     background-color: #2e3436 !important;
   }
+
+  .post__wrapper .post__translatation {
+    background-color: #272c2d;
+
+    & a.post__translatation-link {
+      color: #918aff;
+    }
+  }
 }
 
 @-moz-document url-prefix('http://habr.com/company/'),
