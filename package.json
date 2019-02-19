@@ -18,8 +18,9 @@
   "homepage": "https://github.com/valsaven/userstyles#readme",
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.10.0",
-    "gulp-sass": "^4.0.1"
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
   }
 }
