@@ -313,8 +313,15 @@ $text-color-2: #808080;
   .similar-posts__flow-link,
   .similar-posts__flow-link:visited,
   .partner-info__description,
-  .partner-info__title {
+  .partner-info__title,
+  .news-block__title,
+  .news-topic__title {
     color: #b8b8b6 !important;
+  }
+    
+  .news-block__header,
+  .news-block__footer {
+    bordrer-color: #888 !important;
   }
 
   .nav-links__item-link:hover {
