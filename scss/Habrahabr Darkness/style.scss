@@ -220,7 +220,8 @@ $text-color-2: #808080;
   .html_banner,
   body.nl .layout__elevator,
   .t265__wrapper,
-  .tm-editor_comments {
+  .tm-editor_comments,
+  a.partner-info {
     background: $bg-color-0 !important;
     color: $text-color-1 !important;
     border: none !important;
@@ -307,7 +308,9 @@ $text-color-2: #808080;
   .nav-links__item-link:visited,
   .btn_flow-toggle,
   .similar-posts__flow-link,
-  .similar-posts__flow-link:visited {
+  .similar-posts__flow-link:visited,
+  .partner-info__description,
+  .partner-info__title {
     color: #b8b8b6 !important;
   }
 
