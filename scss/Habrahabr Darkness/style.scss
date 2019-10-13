@@ -225,7 +225,7 @@ $text-color-2: #808080;
     color: $text-color-1 !important;
     border: none !important;
   }
-    
+
   .tabs-menu {
     border-bottom: 1px solid $bg-color-0 !important;
   }
@@ -1018,6 +1018,16 @@ $text-color-2: #808080;
 
     & a.post__translatation-link {
       color: #918aff;
+    }
+  }
+
+  .news-block__title {
+    color: #7d8f9e !important;
+  }
+
+  .news-topic {
+    &__title {
+      color: #6667a3 !important;
     }
   }
 }
