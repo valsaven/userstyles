@@ -197,7 +197,6 @@ $text-color-2: #808080;
   .live-broadcast,
   .similar-posts,
   .tabs__menu,
-  .tabs-menu,
   .columns-group .columns-group__column,
   .n-dropdown-menu,
   .menu_sub,
@@ -224,6 +223,10 @@ $text-color-2: #808080;
     background: $bg-color-0 !important;
     color: $text-color-1 !important;
     border: none !important;
+  }
+    
+  .tabs-menu {
+    border-bottom: 1px solid $bg-color-0 !important;
   }
 
   .promo-block__footer {
