@@ -10,14 +10,8 @@ $text-color-2: #808080;
 
 @-moz-document url-prefix('http://habr.com'),
   url-prefix('https://habr.com'),
-  url-prefix('http://geektimes.com'),
-  url-prefix('https://geektimes.com'),
   url-prefix('http://tmfeed.ru'),
   url-prefix('https://tmfeed.ru') {
-  span.defination-list__label {
-    color: $text-color-2;
-  }
-
   .footer-block__title,
   .company-app__title,
   div.profile-section__about-text,
@@ -430,7 +424,9 @@ $text-color-2: #808080;
   .t-descr,
   .t-text,
   .t-name,
-  .t-descr_xs div {
+  .t-descr_xs div,
+  .post__tags-label,
+  .comments-section__head-title {
     color: $text-color-1 !important;
   }
 
@@ -940,12 +936,12 @@ $text-color-2: #808080;
   .post__text-html,
   .comment__message,
   .comment-form__preview,
-  .companies-rating__name {
+  .companies-rating__name,
+  .layout > .box > p,
+  .comment-form > .comment-form__title > .comment-form__title-text,
+  .company-app__description,
+  .list-snippet__username .list-snippet__fullname {
     color: $text-color-0;
-  }
-
-  .post-info__title {
-    color: $text-color-2;
   }
 
   .dfp-slot {
@@ -957,15 +953,17 @@ $text-color-2: #808080;
     /*[[showHeader]]*/
   }
 
+  span.defination-list__label,
+  .post-info__title,
   .layout > .box > h1,
-  .footer__copyright {
-    color: $text-color-2;
-  }
-
-  .layout > .box > p,
-  .comment-form > .comment-form__title > .comment-form__title-text,
-  .company-app__description {
-    color: $text-color-0;
+  .footer__copyright,
+  .list-snippet .list-snippet__lifetime,
+  .post__time,
+  .profile-section__title,
+  .h-page__title,
+  .h-form-field__label,
+  .h-form__group-title {
+    color: $text-color-2 !important;
   }
 
   div[data-customstyle='yes'] {
@@ -1001,15 +999,6 @@ $text-color-2: #808080;
     background-color: $bg-color-1;
   }
 
-  // Users
-  .list-snippet__username .list-snippet__fullname {
-    color: $text-color-0;
-  }
-
-  .list-snippet .list-snippet__lifetime {
-    color: $text-color-2;
-  }
-
   .toggle-menu {
     background-color: #2e3436 !important;
   }
@@ -1031,15 +1020,36 @@ $text-color-2: #808080;
       color: #6667a3 !important;
     }
   }
+
+  ::-webkit-input-placeholder,
+  :-ms-input-placeholder,
+  ::placeholder {
+    color: #000 !important;
+    opacity: 1;
+  }
 }
 
-@-moz-document url-prefix('http://habr.com/company/'),
-  url-prefix('https://habr.com/company/'),
-  url-prefix('http://geektimes.com/company/'),
-  url-prefix('https://geektimes.com/company/') {
+@-moz-document url-prefix('http://habr.com/en/company/'),
+  url-prefix('https://habr.com/en/company/'),
+  url-prefix('http://habr.com/ru/company/'),
+  url-prefix('https://habr.com/ru/company/') {
   #header_mouse_activity #header {
     background: $bg-color-0 !important;
     box-shadow: none !important;
+  }
+
+  .profile-section__about-text,
+  .empty-placeholder__message {
+    color: $text-color-1 !important;
+  }
+
+  .defination-list__label {
+    color: $text-color-2 !important;
+  }
+
+  .empty-placeholder {
+    background: #2b2b2b;
+    border-radius: 12px;
   }
 
   .company_widgets .block,
@@ -1063,7 +1073,7 @@ $text-color-2: #808080;
   }
 }
 
-@-moz-document domain('m.habr.com'), domain('m.geektimes.com') {
+@-moz-document domain('m.habr.com') {
   .logo {
     width: 54px !important;
     height: 54px !important;
@@ -1205,12 +1215,6 @@ $text-color-2: #808080;
 @-moz-document domain('m.habr.com') {
   .logo:after {
     content: 'H' !important;
-  }
-}
-
-@-moz-document domain('m.geektimes.com') {
-  .logo:after {
-    content: 'G' !important;
   }
 }
 
