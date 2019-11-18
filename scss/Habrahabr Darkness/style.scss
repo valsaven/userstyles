@@ -129,7 +129,6 @@ $text-color-2: #808080;
   .teaser__body-title,
   .t-text_md,
   .company-info__author,
-  .post-share,
   .page-header__info-desc,
   .tm-editor__textarea_comment,
   .h-message__controls,
@@ -137,6 +136,22 @@ $text-color-2: #808080;
     background: $bg-color-1 !important;
     color: $text-color-1 !important;
   }
+  
+  .author-panel,
+  .user-info__contacts,
+  .post-share,
+  .user-info__buttons a {
+    border-color: $text-color-2 !important;
+  }
+
+  .post-share span,
+  .user-info__buttons a {
+    color: $text-color-2 !important;
+  }
+
+  .user-info__buttons a {
+    background: transparent !important;
+  }  
 
   .poll-result__item .poll-result__data .poll-result__data-label {
     color: #80868a;
