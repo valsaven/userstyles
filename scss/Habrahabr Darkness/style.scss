@@ -950,7 +950,8 @@ $link-visited-or-hovered: #548eaa;
   .layout > .box > p,
   .comment-form > .comment-form__title > .comment-form__title-text,
   .company-app__description,
-  .list-snippet__username .list-snippet__fullname {
+  .list-snippet__username .list-snippet__fullname,
+  .timeline__item {
     color: $text-color-0;
   }
 
