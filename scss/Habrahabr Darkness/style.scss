@@ -5,6 +5,14 @@ $text-color-0: #b3b3b3;
 $text-color-1: #babdb6;
 $text-color-2: #808080;
 
+$background-main: #15202b;
+
+$main-color: #fff;
+$second-color: #8899a6;
+
+$link: #2f93d0;
+$link-visited-or-hovered: #548eaa;
+
 @namespace url(http://www.w3.org/1999/xhtml);
 @namespace svg url(http://www.w3.org/2000/svg);
 
@@ -71,14 +79,6 @@ $text-color-2: #808080;
     background-color: #323f4c;
   }
 
-  #layout,
-  #TMpanel,
-  #TMpanel .container,
-  body.nl .layout__base,
-  body.nl .main-navbar {
-    min-width: 1000px !important;
-  }
-
   .top-flows__item-title:visited {
     color: rgb(80, 140, 177) !important;
   }
@@ -136,7 +136,7 @@ $text-color-2: #808080;
     background: $bg-color-1 !important;
     color: $text-color-1 !important;
   }
-  
+
   .author-panel,
   .user-info__contacts,
   .post-share,
@@ -151,7 +151,7 @@ $text-color-2: #808080;
 
   .user-info__buttons a {
     background: transparent !important;
-  }  
+  }
 
   .poll-result__item .poll-result__data .poll-result__data-label {
     color: #80868a;
@@ -797,11 +797,6 @@ $text-color-2: #808080;
     width: 80% !important;
   }
 
-  #header_mouse_activity #header .body,
-  body.nl .main-navbar {
-    width: 1000px !important;
-  }
-
   #layout .wrapper .inner {
     padding: 0 !important;
   }
@@ -959,15 +954,6 @@ $text-color-2: #808080;
     color: $text-color-0;
   }
 
-  .dfp-slot {
-    background: $bg-color-1;
-    /*[[showAds]]*/
-  }
-
-  .page-header__banner {
-    /*[[showHeader]]*/
-  }
-
   span.defination-list__label,
   .post-info__title,
   .layout > .box > h1,
@@ -1042,6 +1028,57 @@ $text-color-2: #808080;
     color: #000 !important;
     opacity: 1;
   }
+
+  // UPDATES
+
+  /* https://habr.com/en/users/.../comments/ */
+  .user_comments {
+    .content-list__item {
+      .comment__post-title {
+        .comment__post-link {
+          color: $link;
+
+          :hover {
+            text-decoration: underline;
+          }
+
+          &:visited {
+            color: $link-visited-or-hovered;
+          }
+        }
+      }
+    }
+  }
+
+  .promo-block {
+    .promo-block__content {
+      .content-list_promo {
+        .content-list__item_promo {
+          .promo-item {
+            .promo-item__title {
+              color: $text-color-1;
+
+              &:hover {
+                color: $link-visited-or-hovered;
+              }
+            }
+
+            &:hover {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .post-info {
+    .post-info__title {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 @-moz-document url-prefix('http://habr.com/en/company/'),
@@ -1077,10 +1114,6 @@ $text-color-2: #808080;
 
   #header .main_menu {
     padding-left: 10px !important;
-  }
-
-  #header_mouse_activity + #layout {
-    width: 1000px !important;
   }
 
   #layout .wrapper {
