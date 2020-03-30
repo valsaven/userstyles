@@ -315,6 +315,7 @@ $link-visited-or-hovered: #548eaa;
   .similar-posts__title,
   .post__title_link,
   .post__title-arrow,
+  .post__title-text,
   .post__title,
   .nav-links__item-link,
   .nav-links__item-link:visited,
@@ -672,7 +673,7 @@ $link-visited-or-hovered: #548eaa;
   }
 
   .infopanel .pageviews:before {
-    content: '⌚' !important;
+    content: '' !important;
     margin-right: 5px !important;
     margin-left: 3px !important;
     font-size: 16px !important;
