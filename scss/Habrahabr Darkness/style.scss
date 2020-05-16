@@ -33,7 +33,8 @@ $link-visited-or-hovered: #548eaa;
   }
 
   .layout__row,
-  .layout__row_navbar {
+  .layout__row_navbar,
+  .t-rec_pt_15 {
     background-color: $bg-color-1 !important;
     border: 0 solid $bg-color-1 !important;
   }
