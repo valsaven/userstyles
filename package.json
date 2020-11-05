@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/valsaven/userstyles#readme",
   "devDependencies": {
-    "del": "^5.1.0",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^4.1.0",
-    "sass": "^1.26.11"
+    "sass": "^1.29.0"
   }
 }
