@@ -1,9 +1,7 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass');
+const sass = require('gulp-dart-sass');
 const cleanCSS = require('gulp-clean-css');
 const del = require('del');
-
-sass.compiler = require('node-sass');
 
 gulp.task('default', () => {
   del(['dist/**', '!dist']).then(paths => {
