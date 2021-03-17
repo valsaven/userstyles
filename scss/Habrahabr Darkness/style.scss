@@ -1131,6 +1131,10 @@ $link-visited-or-hovered: #548eaa;
   #layout .wrapper {
     margin-left: 15px !important;
   }
+  
+  .post__text-html code {
+    background: #2b2b2b;
+  }
 }
 
 @-moz-document domain('m.habr.com') {
