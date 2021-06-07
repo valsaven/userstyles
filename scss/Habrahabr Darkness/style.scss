@@ -1056,7 +1056,8 @@ $link-visited-or-hovered: #548eaa;
             text-decoration: underline;
           }
 
-          &:visited {
+          &:visited,
+          .comment__message_v2 .embed__caption-link{
             color: $link-visited-or-hovered;
           }
         }
