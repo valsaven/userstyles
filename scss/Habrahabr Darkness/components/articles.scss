@@ -1,0 +1,44 @@
+@import "../_variables.scss";
+
+/* Backgroud */
+.tm-company-card,
+.tm-button-follow__button,
+.tm-page-article__body,
+.tm-articles-list__item,
+.tm-data-icons.tm-page-article__counters-panel,
+.tm-user-card,
+.tm-comment-form,
+.tm-comments-wrapper__wrapper,
+.tm-comment-form__editor {
+  background-color: $bg-color-second;
+}
+
+/* Text */
+.tm-company-card__description,
+.tm-article-snippet__title.tm-article-snippet__title_h1,
+.article-formatted-body.article-formatted-body_version-1,
+.article-formatted-body.article-formatted-body_version-2,
+.tm-comment-form__editor {
+  color: $text-color-main;
+}
+
+/* Links */
+.tm-company-card__name,
+.tm-news-block__title-link.tm-news-block__title,
+.tm-article-snippet__title-link {
+  color: $link-color-main;
+}
+
+/* Links: visited */
+.tm-company-card__name:visited,
+.tm-news-block__title-link.tm-news-block__title:visited,
+.tm-article-snippet__title-link:visited {
+  color: $link-color-visited;
+}
+
+/* Links: hover */
+.tm-company-card__name:hover,
+.tm-news-block__title-link.tm-news-block__title:hover,
+.tm-article-snippet__title-link:hover {
+  color: $link-color-hover;
+}

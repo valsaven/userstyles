@@ -1,0 +1,62 @@
+@import "../_variables.scss";
+
+/* Backgroud */
+.tm-header,
+.tm-base-layout__header.tm-base-layout__header_is-sticky,
+.tm-layout,
+.tm-section-name,
+.tm-page-width,
+.tm-page__top,
+.tm-navigation-search__input,
+.tm-pagination,
+.tm-navigation-filters__button,
+.tm-navigation-filters__options,
+.tm-navigation-sorting,
+.tm-hubs-list__sorting-panel,
+.tm-hubs-list,
+.tm-users-list__sorting-panel,
+.tm-users-list,
+.tm-companies__sorting-panel,
+.tm-companies,
+.tm-my-feed-page__settings-button,
+.tm-rss-button,
+.tm-navigation-panel,
+.tm-dropdown__body,
+.tm-user-charge {
+  background-color: $bg-color-second !important;
+}
+
+.tm-pagination__navigation-link:first-child::after,
+.tm-pagination__navigation-link:last-child::before {
+  background: none;
+}
+
+/* Text */
+.tm-section-name__text,
+.tm-navigation-filters__button,
+.tm-navigation-filters__options,
+.tm-navigation-sorting__row-option,
+.tm-navigation-panel,
+.tm-dropdown__body,
+.tm-user-item__name {
+  color: $text-color-main !important;
+}
+
+/* Links */
+.tm-pagination__page,
+.tm-main-menu__item_active,
+.tm-user-menu__menu-link {
+  color: $link-color-main !important;
+}
+
+/* Links: visited */
+.tm-pagination__page:visited,
+.tm-user-menu__menu-link:visited {
+  color: $link-color-visited;
+}
+
+/* Links: hover */
+.tm-pagination__page:hover,
+.tm-user-menu__menu-link:hover {
+  color: $link-color-hover;
+}
