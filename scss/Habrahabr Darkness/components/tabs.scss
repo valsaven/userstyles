@@ -1,0 +1,11 @@
+@import "../_variables.scss";
+
+/* Backgroud */
+.tm-tabs.tm-tabs_page-header {
+  background-color: $bg-color-second;
+}
+
+.tm-tabs::before,
+.tm-tabs::after {
+  background: none;
+}
