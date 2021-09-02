@@ -1,6 +1,14 @@
 @import "../_variables.scss";
 
 /* Backgroud */
+.tm-page.tm-my-feed-page,
+.tm-user-page__placeholder,
+.tm-placeholder_categories,
+.tm-companies__placeholder,
+.tm-placeholder_article {
+  background-color: $bg-color-main !important;
+}
+
 .tm-header,
 .tm-base-layout__header.tm-base-layout__header_is-sticky,
 .tm-layout,
@@ -22,7 +30,9 @@
 .tm-rss-button,
 .tm-navigation-panel,
 .tm-dropdown__body,
-.tm-user-charge {
+.tm-user-charge,
+.tm-footer,
+.tm-footer-menu {
   background-color: $bg-color-second !important;
 }
 
@@ -45,18 +55,21 @@
 /* Links */
 .tm-pagination__page,
 .tm-main-menu__item_active,
-.tm-user-menu__menu-link {
+.tm-user-menu__menu-link,
+.tm-user-info__username {
   color: $link-color-main !important;
 }
 
 /* Links: visited */
 .tm-pagination__page:visited,
-.tm-user-menu__menu-link:visited {
+.tm-user-menu__menu-link:visited,
+.tm-user-info__username:visited {
   color: $link-color-visited;
 }
 
 /* Links: hover */
 .tm-pagination__page:hover,
-.tm-user-menu__menu-link:hover {
+.tm-user-menu__menu-link:hover,
+.tm-user-info__username:hover {
   color: $link-color-hover;
 }

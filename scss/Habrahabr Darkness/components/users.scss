@@ -1,0 +1,34 @@
+@import "../_variables.scss";
+
+.tm-user-card__name,
+.tm-user-card__short-info,
+.tm-navigation-dropdown__option,
+.tm-description-list__title,
+.tm-user-profile__content {
+  color: $text-color-main !important;
+}
+
+.tm-user-comments__comment {
+  background-color: $bg-color-main;
+}
+
+.tm-profile__body,
+.tm-navigation-dropdown,
+.tm-navigation-dropdown__options {
+  background-color: $bg-color-second;
+}
+
+/* Links */
+.tm-user-comments__header-link {
+  color: $link-color-main !important;
+}
+
+/* Links: visited */
+.tm-user-comments__header-link:visited {
+  color: $link-color-visited;
+}
+
+/* Links: hover */
+.tm-user-comments__header-link:hover {
+  color: $link-color-hover;
+}

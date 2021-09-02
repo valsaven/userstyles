@@ -5,8 +5,10 @@
 
 @-moz-document url-prefix('http://habr.com'),
   url-prefix('https://habr.com') {
-  @import "./components/page.scss";
   @import "./components/articles.scss";
+  @import "./components/comments.scss";
+  @import "./components/page.scss";
   @import "./components/sidebar.scss";
   @import "./components/tabs.scss";
+  @import "./components/users.scss";
 }
