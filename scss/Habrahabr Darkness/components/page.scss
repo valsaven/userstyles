@@ -56,20 +56,23 @@
 .tm-pagination__page,
 .tm-main-menu__item_active,
 .tm-user-menu__menu-link,
-.tm-user-info__username {
+.tm-user-info__username,
+.tm-news-block-item__title-link {
   color: $link-color-main !important;
 }
 
 /* Links: visited */
 .tm-pagination__page:visited,
 .tm-user-menu__menu-link:visited,
-.tm-user-info__username:visited {
+.tm-user-info__username:visited,
+.tm-news-block-item__title-link:visited {
   color: $link-color-visited;
 }
 
 /* Links: hover */
 .tm-pagination__page:hover,
 .tm-user-menu__menu-link:hover,
-.tm-user-info__username:hover {
+.tm-user-info__username:hover,
+.tm-news-block-item__title-link:hover {
   color: $link-color-hover;
 }
