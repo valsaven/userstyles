@@ -18,7 +18,9 @@
 .tm-article-snippet__title.tm-article-snippet__title_h1,
 .article-formatted-body.article-formatted-body_version-1,
 .article-formatted-body.article-formatted-body_version-2,
-.tm-comment-form__editor {
+.tm-comment-form__editor,
+.tm-article-poll__header,
+.tm-article-poll__answer-label {
   color: $text-color-main;
 }
 
