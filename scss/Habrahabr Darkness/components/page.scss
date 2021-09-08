@@ -5,7 +5,9 @@
 .tm-user-page__placeholder,
 .tm-placeholder_categories,
 .tm-companies__placeholder,
-.tm-placeholder_article {
+.tm-placeholder_article,
+.tm-project-block,
+.tm-fieldset__header {
   background-color: $bg-color-main !important;
 }
 
@@ -32,7 +34,13 @@
 .tm-dropdown__body,
 .tm-user-charge,
 .tm-footer,
-.tm-footer-menu {
+.tm-footer-menu,
+.tm-page__info,
+.tm-popup-page-settings__form,
+.tm-user-notification-base,
+.user-notifications-dropdown__footer,
+.tm-suggest-button,
+.tm-hub-card {
   background-color: $bg-color-second !important;
 }
 
@@ -48,7 +56,15 @@
 .tm-navigation-sorting__row-option,
 .tm-navigation-panel,
 .tm-dropdown__body,
-.tm-user-item__name {
+.tm-user-item__name,
+.tm-project-block-items__property-item,
+.tm-page__info,
+.tm-page-settings-form__title,
+.tm-input-radio-labeled__label,
+.tm-labeled-checkbox__label,
+.user-notifications-dropdown__title,
+.tm-hub-card__name.tm-hub-card__name_variant-base,
+.tm-hub-card__description.tm-hub-card__description_variant-base {
   color: $text-color-main !important;
 }
 
@@ -57,7 +73,14 @@
 .tm-main-menu__item_active,
 .tm-user-menu__menu-link,
 .tm-user-info__username,
-.tm-news-block-item__title-link {
+.tm-news-block-item__title-link,
+.tm-project-block__title-link,
+.tm-project-block-items__detail.tm-project-block-items__title,
+.tm-docs__link_sidebar,
+.user-notifications-dropdown__show-all,
+.tm-companies-contribution-block__company-name,
+.tm-user-snippet__title,
+.tm-most-reading-block__promo-post {
   color: $link-color-main !important;
 }
 
@@ -65,7 +88,14 @@
 .tm-pagination__page:visited,
 .tm-user-menu__menu-link:visited,
 .tm-user-info__username:visited,
-.tm-news-block-item__title-link:visited {
+.tm-news-block-item__title-link:visited,
+.tm-project-block__title-link:visited,
+.tm-project-block-items__detail.tm-project-block-items__title:visited,
+.tm-docs__link_sidebar:visited,
+.user-notifications-dropdown__show-all:visited,
+.tm-companies-contribution-block__company-name:visited,
+.tm-user-snippet__title:visited,
+.tm-most-reading-block__promo-post:visited {
   color: $link-color-visited;
 }
 
@@ -73,6 +103,18 @@
 .tm-pagination__page:hover,
 .tm-user-menu__menu-link:hover,
 .tm-user-info__username:hover,
-.tm-news-block-item__title-link:hover {
+.tm-news-block-item__title-link:hover,
+.tm-project-block__title-link:hover,
+.tm-project-block-items__detail.tm-project-block-items__title:hover,
+.tm-docs__link_sidebar:hover,
+.user-notifications-dropdown__show-all:hover,
+.tm-companies-contribution-block__company-name:hover,
+.tm-user-snippet__title:hover,
+.tm-most-reading-block__promo-post:hover {
   color: $link-color-hover;
+}
+
+/* Style fixes */
+.tm-suggest-button:hover {
+  background-color: #7aa600 !important;
 }

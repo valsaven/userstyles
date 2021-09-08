@@ -9,21 +9,27 @@
 /* Links */
 .tm-companies-rating__name,
 .tm-article-title__link,
-.tm-hubs-block__hub-title {
+.tm-hubs-block__hub-title,
+.tm-widget-news__link,
+.tm-widget-twitter__name {
   color: $link-color-main;
 }
 
 /* Links: visited */
 .tm-companies-rating__name:visited,
 .tm-article-title__link:visited,
-.tm-hubs-block__hub-title:visited {
+.tm-hubs-block__hub-title:visited,
+.tm-widget-news__link:visited,
+.tm-widget-twitter__name:visited {
   color: $link-color-visited;
 }
 
 /* Links: hover */
 .tm-companies-rating__name:hover,
 .tm-article-title__link:hover,
-.tm-hubs-block__hub-title:hover {
+.tm-hubs-block__hub-title:hover,
+.tm-widget-news__link:hover,
+.tm-widget-twitter__name:hover {
   color: $link-color-hover;
 }
 
@@ -32,6 +38,8 @@
 .tm-description-list__body_variant-columns-numbers,
 .tm-description-list__title_variant-columns,
 .tm-description-list__title_variant-columns-nowrap,
-.tm-description-list__title_variant-columns-numbers {
+.tm-description-list__title_variant-columns-numbers,
+.tm-widget-twitter__message,
+.tm-block__title {
   color: $text-color-main;
 }
