@@ -7,7 +7,11 @@
 .tm-companies__placeholder,
 .tm-placeholder_article,
 .tm-project-block,
-.tm-fieldset__header {
+.tm-fieldset__header,
+.tm-comment__body-content details,
+.tm-comment__body-content_v2 details,
+.tm-comment-navigation__block,
+.tm-layout__container {
   background-color: $bg-color-main !important;
 }
 
@@ -42,6 +46,16 @@
 .tm-suggest-button,
 .tm-hub-card {
   background-color: $bg-color-second !important;
+}
+
+// Автор комментария
+.tm-comment__header_is-by-op {
+  background-color: #254203 !important;
+}
+
+// Новые комментарии
+.tm-comment__header_is-new {
+  background-color: #222436 !important;
 }
 
 .tm-pagination__navigation-link:first-child::after,
@@ -80,7 +94,8 @@
 .user-notifications-dropdown__show-all,
 .tm-companies-contribution-block__company-name,
 .tm-user-snippet__title,
-.tm-most-reading-block__promo-post {
+.tm-most-reading-block__promo-post,
+.tm-company-snippet__title {
   color: $link-color-main !important;
 }
 
@@ -95,7 +110,8 @@
 .user-notifications-dropdown__show-all:visited,
 .tm-companies-contribution-block__company-name:visited,
 .tm-user-snippet__title:visited,
-.tm-most-reading-block__promo-post:visited {
+.tm-most-reading-block__promo-post:visited,
+.tm-company-snippet__title:visited {
   color: $link-color-visited;
 }
 
@@ -110,7 +126,8 @@
 .user-notifications-dropdown__show-all:hover,
 .tm-companies-contribution-block__company-name:hover,
 .tm-user-snippet__title:hover,
-.tm-most-reading-block__promo-post:hover {
+.tm-most-reading-block__promo-post:hover,
+.tm-company-snippet__title:hover {
   color: $link-color-hover;
 }
 
