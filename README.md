@@ -24,3 +24,8 @@ npm i
 # build
 npm run build
 ```
+
+# Donations
+To support this project, you can buy me a coffee:
+
+[![paypal](https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg)](https://paypal.me/valsaven)
