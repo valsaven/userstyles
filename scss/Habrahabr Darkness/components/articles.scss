@@ -10,7 +10,7 @@
 .tm-comment-form,
 .tm-comments-wrapper__wrapper,
 .tm-comment-form__editor {
-  background-color: $bg-color-second;
+  background-color: $bg-color-second !important;
 }
 
 /* Text */
@@ -21,26 +21,26 @@
 .tm-comment-form__editor,
 .tm-article-poll__header,
 .tm-article-poll__answer-label {
-  color: $text-color-main;
+  color: $text-color-main !important;
 }
 
 /* Links */
 .tm-company-card__name,
 .tm-news-block__title-link.tm-news-block__title,
 .tm-article-snippet__title-link {
-  color: $link-color-main;
+  color: $link-color-main !important;
 }
 
 /* Links: visited */
 .tm-company-card__name:visited,
 .tm-news-block__title-link.tm-news-block__title:visited,
 .tm-article-snippet__title-link:visited {
-  color: $link-color-visited;
+  color: $link-color-visited !important;
 }
 
 /* Links: hover */
 .tm-company-card__name:hover,
 .tm-news-block__title-link.tm-news-block__title:hover,
 .tm-article-snippet__title-link:hover {
-  color: $link-color-hover;
+  color: $link-color-hover !important;
 }

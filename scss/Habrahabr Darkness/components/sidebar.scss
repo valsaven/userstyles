@@ -3,7 +3,7 @@
 /* Backgroud */
 .tm-block.tm-block_spacing-bottom,
 .tm-block.tm-block_spacing-around {
-  background-color: $bg-color-second;
+  background-color: $bg-color-second !important;
 }
 
 /* Links */
@@ -12,7 +12,7 @@
 .tm-hubs-block__hub-title,
 .tm-widget-news__link,
 .tm-widget-twitter__name {
-  color: $link-color-main;
+  color: $link-color-main !important;
 }
 
 /* Links: visited */
@@ -21,7 +21,7 @@
 .tm-hubs-block__hub-title:visited,
 .tm-widget-news__link:visited,
 .tm-widget-twitter__name:visited {
-  color: $link-color-visited;
+  color: $link-color-visited !important;
 }
 
 /* Links: hover */
@@ -30,7 +30,7 @@
 .tm-hubs-block__hub-title:hover,
 .tm-widget-news__link:hover,
 .tm-widget-twitter__name:hover {
-  color: $link-color-hover;
+  color: $link-color-hover !important;
 }
 
 .tm-description-list__body_variant-columns,
@@ -41,5 +41,5 @@
 .tm-description-list__title_variant-columns-numbers,
 .tm-widget-twitter__message,
 .tm-block__title {
-  color: $text-color-main;
+  color: $text-color-main !important;
 }

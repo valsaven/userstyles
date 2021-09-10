@@ -11,7 +11,8 @@
 .tm-comment__body-content details,
 .tm-comment__body-content_v2 details,
 .tm-comment-navigation__block,
-.tm-layout__container {
+.tm-layout__container,
+.article-formatted-body pre {
   background-color: $bg-color-main !important;
 }
 
@@ -44,16 +45,18 @@
 .tm-user-notification-base,
 .user-notifications-dropdown__footer,
 .tm-suggest-button,
-.tm-hub-card {
+.tm-hub-card,
+.tm-editor__wrapper,
+.tm-editor__bottom {
   background-color: $bg-color-second !important;
 }
 
-// Автор комментария
+// OP comments
 .tm-comment__header_is-by-op {
   background-color: #254203 !important;
 }
 
-// Новые комментарии
+// New comments
 .tm-comment__header_is-new {
   background-color: #222436 !important;
 }
@@ -78,7 +81,14 @@
 .tm-labeled-checkbox__label,
 .user-notifications-dropdown__title,
 .tm-hub-card__name.tm-hub-card__name_variant-base,
-.tm-hub-card__description.tm-hub-card__description_variant-base {
+.tm-hub-card__description.tm-hub-card__description_variant-base,
+.hljs,
+.tm-comments-wrapper__title,
+.tm-article-body__tags-title,
+.ProseMirror > h1,
+.ProseMirror .node__inner p,
+.tm-block__body,
+.tm-publication__bottom-time {
   color: $text-color-main !important;
 }
 
@@ -134,4 +144,18 @@
 /* Style fixes */
 .tm-suggest-button:hover {
   background-color: #7aa600 !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: $text-color-main; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $bg-color-second; /* color of the scroll thumb */
+  border: 3px solid $text-color-main; /* creates padding around scroll thumb */
 }
