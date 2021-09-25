@@ -28,4 +28,4 @@ npm run build
 # Donations
 To support this project, you can buy me a coffee:
 
-[![paypal](https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg)](https://paypal.me/valsaven)
+[![liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/valsaven/donate)
