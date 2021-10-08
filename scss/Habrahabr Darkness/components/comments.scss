@@ -4,6 +4,11 @@
   background-color: $bg-color-main !important;
 }
 
-.tm-comment__body-content {
+.tm-notice {
+  background-color: $bg-color-second !important;
+}
+
+.tm-comment__body-content,
+.tm-notice__content {
   color: $text-color-main !important;
 }
