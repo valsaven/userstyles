@@ -13,7 +13,8 @@
 .tm-comment-navigation__block,
 .tm-layout__container,
 .article-formatted-body code,
-.article-formatted-body pre {
+.article-formatted-body pre,
+.article-formatted-body_version-2 details {
   background-color: $bg-color-main !important;
 }
 
