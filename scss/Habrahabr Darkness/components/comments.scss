@@ -1,6 +1,7 @@
 @import "../_variables.scss";
 
 .tm-article-comments__article-snippet,
+.tm-comment__body-content code,
 .tm-comment__body-content pre {
   background-color: $bg-color-main !important;
 }
