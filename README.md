@@ -11,6 +11,9 @@ https://userstyles.org/users/375266
 
 https://greasyfork.org/en/users/578390-valsaven
 
+# userstyles.world
+https://userstyles.world/style/1807/habrahabr-darkness
+
 
 ### List
 * [Habrahabr Darkness](https://greasyfork.org/en/scripts/407862-habrahabr-darkness)
