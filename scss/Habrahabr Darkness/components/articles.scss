@@ -9,7 +9,10 @@
 .tm-user-card,
 .tm-comment-form,
 .tm-comments-wrapper__wrapper,
-.tm-comment-form__editor {
+.tm-comment-form__editor,
+.tm-article-presenter__body,
+.tm-article-sticky-panel,
+.tm-article-sticky-panel__icons {
   background-color: $bg-color-second !important;
 }
 
