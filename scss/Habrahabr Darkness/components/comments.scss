@@ -14,3 +14,15 @@
 .tm-notice__content {
   color: $text-color-main !important;
 }
+
+.tm-comment__body-content_v2 .embed__caption-link {
+  color: $link-color-main !important;
+}
+
+.tm-comment__body-content_v2 .embed__caption-link:visited {
+  color: $link-color-visited !important;
+}
+
+.tm-comment__body-content_v2 .embed__caption-link:hover {
+  color: $link-color-hover !important;
+}
