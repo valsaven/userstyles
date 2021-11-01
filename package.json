@@ -4,7 +4,7 @@
   "description": "My styles",
   "main": "index.js",
   "scripts": {
-    "build": "gulp"
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,8 @@
   },
   "homepage": "https://github.com/valsaven/userstyles#readme",
   "devDependencies": {
-    "del": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-dart-sass": "^1.0.2",
+    "rollup": "^2.59.0",
+    "rollup-plugin-scss": "^3.0.0",
     "sass": "^1.43.4"
   }
 }
