@@ -26,3 +26,36 @@
 .tm-comment__body-content_v2 .embed__caption-link:hover {
   color: $link-color-hover !important;
 }
+
+.tm-comment-thread__circle {
+  border: 2px solid rgba(46,56,65,.5) !important;
+  background: #777 !important;
+}
+
+.tm-votes-lever__button {
+    color: #354046 !important;
+}
+
+.tm-comment__icon {
+    color: #354046 !important;
+}
+
+.tm-comment-thread__icon-pencil {
+    color: #354046 !important;
+}
+
+.tm-article-list-block__item:not(:first-child) {
+    border-top: 1px solid #354046 !important;
+}
+
+.tm-comment-navigation__counter {
+    background: #354046 !important;
+}
+
+.tm-block__header {
+    border-bottom: 1px solid #354046 !important;
+}
+
+.tm-block__footer {
+    border-top: 1px solid #354046 !important;
+}

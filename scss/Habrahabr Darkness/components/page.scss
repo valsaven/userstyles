@@ -157,6 +157,11 @@
   width: 14px;
 }
 
+/* Navbar */
+.tm-base-layout__header {
+  border-bottom: 1px solid #354046 !important;
+}
+
 ::-webkit-scrollbar-track {
   background: $text-color-main; /* color of the tracking area */
 }
