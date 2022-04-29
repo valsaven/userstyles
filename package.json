@@ -19,6 +19,6 @@
   "devDependencies": {
     "rollup": "2.70.2",
     "rollup-plugin-scss": "3.0.0",
-    "sass": "1.50.1"
+    "sass": "1.51.0"
   }
 }
