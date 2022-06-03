@@ -6,6 +6,7 @@
 .tm-placeholder_categories,
 .tm-companies__placeholder,
 .tm-placeholder_article,
+.tm-placeholder__company-avatar,
 .tm-placeholder__line,
 .tm-placeholder-promo__image,
 .loads,
@@ -17,7 +18,9 @@
 .tm-layout__container,
 .article-formatted-body code,
 .article-formatted-body pre,
-.article-formatted-body_version-2 details {
+.article-formatted-body_version-2 details,
+.news-block-item-placeholder__header,
+.news-block-item-placeholder__meta {
   background-color: $bg-color-main !important;
 }
 
