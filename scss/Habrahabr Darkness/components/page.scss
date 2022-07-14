@@ -17,6 +17,9 @@
 .tm-comment__body-content_v2 .mention,
 .tm-comment-navigation__block,
 .tm-layout__container,
+.article-formatted-body img {
+  background-color: $text-color-main;
+}
 .article-formatted-body code,
 .article-formatted-body pre,
 .article-formatted-body_version-2 details,
