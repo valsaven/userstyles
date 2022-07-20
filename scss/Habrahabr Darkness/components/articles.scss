@@ -33,6 +33,11 @@
   color: $text-color-main !important;
 }
 
+/* Images */
+.article-formatted-body img {
+  background-color: $text-color-main !important;
+}
+
 /* Links */
 .tm-company-card__name,
 .tm-news-block__title-link.tm-news-block__title,
