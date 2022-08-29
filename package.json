@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/valsaven/userstyles#readme",
   "devDependencies": {
-    "rollup": "2.77.2",
+    "rollup": "2.79.0",
     "rollup-plugin-scss": "3.0.0",
-    "sass": "1.54.3"
+    "sass": "1.54.8"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
