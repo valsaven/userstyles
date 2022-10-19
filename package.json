@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "My styles",
   "main": "index.js",
+  "private":"true",
+  "type": "module",
   "scripts": {
     "build": "rollup --config"
   },
@@ -17,7 +19,7 @@
   },
   "homepage": "https://github.com/valsaven/userstyles#readme",
   "devDependencies": {
-    "rollup": "2.79.1",
+    "rollup": "3.2.3",
     "rollup-plugin-scss": "3.0.0",
     "sass": "1.55.0"
   },
