@@ -4,7 +4,15 @@
 .tm-user-card__short-info,
 .tm-navigation-dropdown__option,
 .tm-description-list__title,
-.tm-user-profile__content {
+.tm-user-profile__content,
+.base-section__title,
+.base-section__description,
+.base-select__container,
+.base-input__label,
+.base-radio__label,
+.base-checkbox__container,
+.tm-user-apps__title,
+.base-textarea__container {
   color: $text-color-main !important;
 }
 
@@ -14,21 +22,31 @@
 
 .tm-profile__body,
 .tm-navigation-dropdown,
-.tm-navigation-dropdown__options {
+.tm-navigation-dropdown__options,
+.tm-users-list__placeholder,
+.tm-placeholder__category-avatar,
+.tm-placeholder__category-name,
+.tm-placeholder__category-desctiption,
+.tm-user-comment-card,
+.user-settings__form,
+.tm-user-apps__list {
   background-color: $bg-color-second;
 }
 
 /* Links */
-.tm-user-comments__header-link {
+.tm-user-comments__header-link,
+.tm-user-comments__title-link {
   color: $link-color-main !important;
 }
 
 /* Links: visited */
-.tm-user-comments__header-link:visited {
+.tm-user-comments__header-link:visited,
+.tm-user-comments__title-link:visited {
   color: $link-color-visited;
 }
 
 /* Links: hover */
-.tm-user-comments__header-link:hover {
+.tm-user-comments__header-link:hover,
+.tm-user-comments__title-link:hover {
   color: $link-color-hover;
 }

@@ -27,7 +27,9 @@
 .article-formatted-body_version-2 .mention,
 .tm-article-card-list__item,
 .news-block-item-placeholder__header,
-.news-block-item-placeholder__meta {
+.news-block-item-placeholder__meta,
+.tm-user-votes-comments__empty,
+.tm-navigation-dropdown__option-button:hover {
   background-color: $bg-color-main !important;
 }
 
@@ -110,7 +112,8 @@
 .ProseMirror > h1,
 .ProseMirror .node__inner p,
 .tm-block__body,
-.tm-publication__bottom-time {
+.tm-publication__bottom-time,
+.tm-user-karma-reset__title {
   color: $text-color-main !important;
 }
 
