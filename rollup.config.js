@@ -1,4 +1,9 @@
-import scss from 'rollup-plugin-scss';
+import autoprefixer from 'autoprefixer';
+import postcss from 'rollup-plugin-postcss';
+import rimraf from 'rimraf';
+
+// Remove the 'dist' folder before starting the build
+rimraf.sync('dist');
 
 export default [
   'Dark css2less',
@@ -9,12 +14,15 @@ export default [
 ].map((name) => ({
   input: `./scss/${name}/style.scss`,
   output: {
-    name,
-    file: `dist/${name}/index.js`,
+    file: `./dist/${name}.css`,
   },
   plugins: [
-    scss({
-      outputStyle: 'compressed',
+    postcss({
+      extract: true,
+      modules: false,
+      use: ['sass'],
+      plugins: [autoprefixer()],
+      minimize: true,
     }),
-  ]
+  ],
 }));
