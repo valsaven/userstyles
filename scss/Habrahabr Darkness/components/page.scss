@@ -166,6 +166,16 @@
   color: $link-color-hover;
 }
 
+/* Article header */
+.tm-title {
+  color: $text-color-main!important;
+}
+
+/* Other news */
+.tm-title__link {
+  color: $text-color-main!important;
+}
+
 /* Style fixes */
 .tm-suggest-button:hover {
   background-color: #7aa600 !important;
