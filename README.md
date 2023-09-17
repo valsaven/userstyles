@@ -24,11 +24,3 @@ npm i
 # build
 npm run build
 ```
-
-## Donations
-
-To support this project, you can buy me a coffee :3
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/valsaven)
-
-[![liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/valsaven/donate)
