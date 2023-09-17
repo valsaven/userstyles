@@ -1,9 +1,9 @@
 import autoprefixer from 'autoprefixer';
 import postcss from 'rollup-plugin-postcss';
-import rimraf from 'rimraf';
+import { rimrafSync } from 'rimraf';
 
 // Remove the 'dist' folder before starting the build
-rimraf.sync('dist');
+rimrafSync('dist');
 
 export default [
   'Dark css2less',
