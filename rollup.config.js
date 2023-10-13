@@ -22,7 +22,7 @@ export default [
       modules: false,
       use: ['sass'],
       plugins: [autoprefixer()],
-      minimize: true,
+      // minimize: true,
     }),
   ],
 }));
