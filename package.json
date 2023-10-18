@@ -6,7 +6,8 @@
   "private": "true",
   "type": "module",
   "scripts": {
-    "build": "rollup --config"
+    "build": "rollup -c",
+    "build:full": "rollup -c --environment ROLLUP_TASK:full"
   },
   "repository": {
     "type": "git",
@@ -19,13 +20,10 @@
   },
   "homepage": "https://github.com/valsaven/userstyles#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "rimraf": "^5.0.5",
-    "rollup": "4.0.2",
-    "rollup-plugin-postcss": "^4.0.2",
-    "sass": "1.69.3"
-  },
-  "engines": {
-    "node": ">=20"
+    "autoprefixer": "10.4.16",
+    "rimraf": "5.0.5",
+    "rollup": "4.1.4",
+    "rollup-plugin-postcss": "4.0.2",
+    "sass": "1.69.4"
   }
 }

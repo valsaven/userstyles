@@ -5,6 +5,8 @@ import { rimrafSync } from 'rimraf';
 // Remove the 'dist' folder before starting the build
 rimrafSync('dist');
 
+const task = process.env.ROLLUP_TASK;
+
 export default [
   'Dark css2less',
   'Dark less2css',
@@ -22,7 +24,7 @@ export default [
       modules: false,
       use: ['sass'],
       plugins: [autoprefixer()],
-      // minimize: true,
+      minimize: task  === 'full' ? false : true,
     }),
   ],
 }));

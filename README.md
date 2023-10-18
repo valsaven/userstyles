@@ -19,8 +19,11 @@
 
 ``` bash
 # install dependencies
-npm i
+bun install
 
 # build
-npm run build
+bun run build
+
+# build unminified
+bun run build:full
 ```
