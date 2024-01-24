@@ -12,7 +12,6 @@ export default [
   'Dark less2css',
   'Habrahabr Darkness',
   'Habrahabr Darkness (Old site)',
-  'VK Remove comments',
 ].map((name) => ({
   input: `./scss/${name}/style.scss`,
   output: {
