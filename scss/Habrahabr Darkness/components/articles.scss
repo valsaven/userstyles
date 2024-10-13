@@ -35,10 +35,12 @@
 .tm-separated-list__title,
 .tm-navigation-dropdown__option-button,
 .article-formatted-body code,
-.article-formatted-body pre code {
+.article-formatted-body pre code,
+.tm-comment__body-content code {
   color: $text-color-main !important;
 }
-.article-formatted-body pre {
+.article-formatted-body pre,
+.tm-comment__body-content pre {
   border-color: $bg-color-second !important;
 }
 
