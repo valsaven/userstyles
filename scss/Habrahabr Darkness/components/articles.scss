@@ -17,10 +17,12 @@
 .tm-article-sticky-panel,
 .tm-article-sticky-panel__icons,
 .tm-placeholder-promo,
-.tm-placeholder-inset {
+.tm-placeholder-inset,
+.publication-type-label {
   background-color: $bg-color-second !important;
 }
-.tm-article-snippet__hubs-container::after {
+.tm-article-snippet__hubs-container::after,
+.tm-publication-hubs__container::after {
   background: none;
 }
 
