@@ -25,6 +25,7 @@ node_modules/
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
+.idea
 
 # Building directory
 dist
