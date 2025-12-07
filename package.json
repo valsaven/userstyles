@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/valsaven/userstyles#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "rimraf": "6.0.1",
-    "rollup": "^4.50.1",
+    "autoprefixer": "^10.4.22",
+    "rimraf": "6.1.2",
+    "rollup": "^4.53.3",
     "rollup-plugin-postcss": "4.0.2",
-    "sass": "^1.92.1"
+    "sass": "^1.94.2"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001741"
+    "caniuse-lite": "^1.0.30001759"
   }
 }
