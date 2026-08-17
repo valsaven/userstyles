@@ -17,12 +17,12 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
-bun install
+# Install dependencies
+pnpm install
 
-# build
-bun run build
+# Build
+pnpm run build
 
-# build unminified
-bun run build:full
+# Build unminified
+pnpm run build:full
 ```
